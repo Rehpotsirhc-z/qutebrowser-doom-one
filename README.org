@@ -1,5 +1,12 @@
 #+title: Doom-One Theme for qutebrowser
 
+* Screenshots
+[[file:images/screenshot1.png]]
+
+[[file:images/screenshot2.png]]
+
+[[file:images/screenshot3.png]]
+
 * Installation
 Find your qutebrowser configuration directory (see ~:version~ in qutebrowser). This folder should be located at the "config" location listed on ~qute://version~, which is typically =~/.config/qutebrowser/= on Linux, =~/.qutebrowser/= on macOS, and =%APPDATA%/qutebrowser/config/= on Windows.
 
