@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Rehpotsirhc
+#
+# SPDX-License-Identifier: MIT
+
 def setup(c, options={}):
     palette = {
         "background": "#282c34",  # gray
