@@ -20,6 +20,7 @@ def setup(c, options={}):
         "pink": "#c678dd",
         "dark-blue": "#2257a0",
         "blue": "#51afef",
+        "light-blue": "#7bb6e2",
         "cyan": "#46d9ff",
         "dark-green": "#668044",
         "green": "#98be65",
@@ -51,7 +52,7 @@ def setup(c, options={}):
     c.colors.completion.category.border.top = palette["dark-gray"]
 
     # Foreground color of completion widget category headers.
-    c.colors.completion.category.fg = palette["pink"]
+    c.colors.completion.category.fg = palette["blue"]
 
     # Background color of the completion widget for even rows.
     c.colors.completion.even.bg = palette["background"]
@@ -75,10 +76,10 @@ def setup(c, options={}):
     c.colors.completion.item.selected.fg = palette["foreground"]
 
     # Foreground color of the matched text in the completion.
-    c.colors.completion.match.fg = palette["blue"]
+    c.colors.completion.match.fg = palette["pink"]
 
     # Foreground color of the selected matched text in the completion.
-    c.colors.completion.item.selected.match.fg = palette["red"]
+    c.colors.completion.item.selected.match.fg = palette["light-blue"]
 
     # Color of the scrollbar in completion view
     c.colors.completion.scrollbar.bg = palette["medium-gray"]
