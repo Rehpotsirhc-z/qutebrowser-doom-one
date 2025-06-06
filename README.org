@@ -17,7 +17,7 @@ Clone this repository into the configuration directory:
 
 #+begin_src sh
 # Replace with the correct path
-git clone https://gitlab.com/rehposuite/qutebrowser-doom-one.git ~/.config/qutebrowser/doom_one/
+git clone https://github.com/Rehpotsirhc-z/qutebrowser-doom-one.git ~/.config/qutebrowser/doom_one/
 #+end_src
 
 In your [[https://www.qutebrowser.org/doc/help/configuring.html#configpy][qutebrowser configuration file]], include the following:
